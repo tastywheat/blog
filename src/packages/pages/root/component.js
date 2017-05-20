@@ -27,7 +27,7 @@ class Root extends Component {
                 <div className="root__main">
                     <Route exact path="/" component={Home}/>
                     <Route path="/about" component={About}/>
-                    <Route path="/articles/hello" component={ArticleDetail} />
+                    <Route path="/articles/chorong" component={ArticleDetail} />
                 </div>
 
                 <LiveChat />
