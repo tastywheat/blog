@@ -1,0 +1,23 @@
+.appbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.appbar__left {
+    display: flex;
+}
+.appbar__blog-name {
+    font-size: 36px;
+    font-weight: bold;
+}
+.appbar__menu {
+    margin: 0;
+    padding: 0;
+}
+.appbar__menu-item {
+    display: inline-block;
+    margin-left: 5px;
+}
+.appbar__search {
+    align-self: flex-end;
+}

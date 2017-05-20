@@ -1,0 +1,12 @@
+.comment {}
+
+.comment__footer {
+    padding-top: 15px;
+    display: flex;
+}
+
+.comment__commenter, 
+.comment__date {
+    margin-right: 15px;
+    font-size: 12px;
+}

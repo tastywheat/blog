@@ -1,0 +1,16 @@
+.article-detail {
+    padding: 20px;
+}
+
+.article-detail__title {
+    font-weight: bold;
+    font-size: 24px;
+}
+.article-detail__main-image {
+    text-align: center;
+}
+.article-detail__body {}
+.article-detail__publish-date {
+    text-align: right;
+}
+.article-detail__comments {}

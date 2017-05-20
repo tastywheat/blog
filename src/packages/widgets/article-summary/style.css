@@ -1,0 +1,10 @@
+.article-summary {}
+
+.article-summary__image-wrapper {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.article-summary__image {
+    max-width: 200px;
+}
