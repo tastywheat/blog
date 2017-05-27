@@ -10,13 +10,15 @@ class Sidebar extends Component {
                 <div className="sidebar__profile-photo-wrapper">
                     <img 
                         className="sidebar__profile-photo"
-                        src="http://www.cutenessoverflow.com/wp-content/uploads/2014/02/25-This-bulldog-bully-pup-is-chasing-butterflies..jpg" 
+                        src="https://cdn.dribbble.com/users/88761/avatars/normal/f71c29eafeb788f20de7737a508e364e.jpg?1449624419" 
                         alt="" 
                     />
                 </div>
-                <div>Chorong</div>
-                <div>Toronto, Ontario</div>
-                <div>Developer</div>
+                <div className="sidebar__profile-photo">
+                    <div>Lubos.Volkov</div>
+                    <div>Toronto, Ontario</div>
+                    <div>Developer</div>
+                </div>
             </div>
             <div className="sidebar__navigation"></div>
             <div className="sidebar__chat"></div>

@@ -9,22 +9,26 @@ class Appbar extends Component {
   render() {
     return (
         <div className="appbar">
-            <div className="appbar__left">
-                <div className="appbar__blog-name">
-                    I'm a blog
-                </div>
-                <ul className="appbar__menu">
-                    <li className="appbar__menu-item"><Link to="/">Home</Link></li>
-                    <li className="appbar__menu-item"><Link to="/blog">Blog</Link></li>
-                    <li className="appbar__menu-item"><Link to="/photos">Photos</Link></li>
-                    <li className="appbar__menu-item"><Link to="/about">About</Link></li>
-                </ul>
+            <div className="appbar__blog-name">
+                DIGITAL NOMARD
             </div>
-            <div className="appbar__right">
-                <div className="appbar__search">
-                    <input type="text" />
+
+            <div className="appbar__blog-nav">
+                <div className="appbar__left">
+                    <ul className="appbar__menu">
+                        <li className="appbar__menu-item"><Link to="/">HOME</Link></li>
+                        <li className="appbar__menu-item"><Link to="/blog">BLOG</Link></li>
+                        <li className="appbar__menu-item"><Link to="/photos">PHOTOS</Link></li>
+                        <li className="appbar__menu-item"><Link to="/about">ABOUT</Link></li>
+                    </ul>
+                </div> 
+                <div className="appbar__right">
+                    
+                        <input className="appbar__search" type="text" placeholder="Search"/>
+                    
                 </div>
             </div>
+
         </div>
     );
   }

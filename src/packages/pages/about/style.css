@@ -1,0 +1,16 @@
+.about-overview{
+	margin:150px;
+	line-height: 2rem;
+}
+.about-overview__mainimage,
+.about-overview__subimage{
+	width:100%;
+	margin-bottom: 20px;
+}
+
+.about-overview__text{
+	margin-bottom: 50px;
+}
+h1{
+	font-family: 'Orbitron', sans-serif;
+}

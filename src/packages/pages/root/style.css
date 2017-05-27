@@ -13,11 +13,12 @@
 
 .root__sidebar {
     position: fixed; 
-    top: 70px;
+    top: 175px;
     left: 0;
     height: 100%;
-    width: 150px;
-    background-color: grey;
+    width: 250px;
+    background-color: #f1f1f1;
+    z-index: -3;
 }
 
 .root__main {

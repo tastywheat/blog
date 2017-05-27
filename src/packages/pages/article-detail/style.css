@@ -1,16 +1,26 @@
 .article-detail {
+	margin:150px;
     padding: 20px;
 }
 
 .article-detail__title {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
 }
 .article-detail__main-image {
-    text-align: center;
+	margin-top:20px; 
+    text-align: left;
 }
-.article-detail__body {}
+.article-detail__body {
+	line-height: 2rem;
+}
 .article-detail__publish-date {
-    text-align: right;
+    text-align: left;
+    font-style: italic;
+    color:#757575;
 }
-.article-detail__comments {}
+.article-detail__comments {
+	margin-top:30px;
+	border-top:1px solid #eee;
+}

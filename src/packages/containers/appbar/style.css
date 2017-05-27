@@ -1,23 +1,53 @@
 .appbar {
-    display: flex;
-    justify-content: space-between;
-}
+    background-color: #0f5889;
+    color:#fff;
+    padding: 40px;
+    padding-bottom: 0;
 
-.appbar__left {
-    display: flex;
 }
 .appbar__blog-name {
     font-size: 36px;
     font-weight: bold;
+    padding-bottom:20px;
+}
+.appbar__blog-nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.appbar__left {
+    width:80%;
+    padding:20px;
+    background-color: #65b2e6;
 }
 .appbar__menu {
     margin: 0;
-    padding: 0;
+
 }
 .appbar__menu-item {
     display: inline-block;
     margin-left: 5px;
+    padding: 0 20px;
+    font-size: 18px;
+    border-top:1px solid rgba(255,255,255,0.1);
+}
+.appbar a:link{
+    text-decoration: none;
+    color:#000;
+}
+.appbar__right {
+    width:20%;
+    padding:20px;
+    background-color: #65b2e6;
 }
 .appbar__search {
-    align-self: flex-end;
+    width: 80%;
+    height:30px;
+    background-color: rgba(100, 178, 230, 0.5);
+    border:solid 1px black;
+    padding-left: 10px;
+    font-size: 1rem;
 }
+
+
+//    align-self: flex-end;
