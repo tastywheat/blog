@@ -1,4 +1,8 @@
-.comment {}
+.comment {
+	background-color: rgba(101, 178, 230, 0.1);
+	border-bottom:1px solid #65b2e6;
+	padding:10px;
+}
 
 .comment__footer {
     padding-top: 15px;
@@ -9,4 +13,7 @@
 .comment__date {
     margin-right: 15px;
     font-size: 12px;
+    font-style: italic;
+    color:#757575;
+
 }

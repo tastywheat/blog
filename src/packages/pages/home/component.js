@@ -10,8 +10,9 @@ class Home extends Component {
             <div className="home">
                 <ArticleSummary
                     linkTo="/articles/chorong"
-                    imageUrl="https://cdn105.picsart.com/204083621002202.png?r480x480"
-                    body="Park Cho-rong was born in Chungcheongbuk-do, South Korea on March 3, 1991. She is a middle child, having an older and a younger sister. As a daughter of a Hapkido master and academy owner, Park was trained in the said martial art for eight years.[1] She trained from her first year in elementary school until her third year of junior high; she is a holder of a 3rd degree black belt.[2][3] During her school days, Park had attended Byungsul Kindergarten, Bukang Elementary School, Bukang Middle High School, and Choongbook High School."
+                    imageUrl="https://cdn.dribbble.com/users/88761/screenshots/2188026/dribbble_shot.png"
+                    body="It's time to get back on the track! 
+                    And let's start with a cool project I recently completed with Humdinger and Sons :)"
                 />
                 <ArticleSummary
                     linkTo="/articles/joongki"

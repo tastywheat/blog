@@ -1,8 +1,19 @@
 .live-chat {
     position: fixed;
     bottom: 0;
-    left: 0;
+    left: 15px;
     height: 150px;
-    width: 70px;
-    background-color: yellow;
+    width: 200px;
+    background-color: rgba(166, 116, 212, 0.3);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #a774cf;
+    padding:10px;
+    font-weight: bold;
+	color:#a774cf;
+}
+
+.live-msg{
+	font-size: 0.8rem;
+	color:black;
 }
