@@ -10,7 +10,7 @@ class Appbar extends Component {
     return (
         <div className="appbar">
             <div className="appbar__blog-name">
-                DIGITAL NOMARD
+                DIGITAL NOMAD
             </div>
 
             <div className="appbar__blog-nav">
@@ -19,14 +19,12 @@ class Appbar extends Component {
                         <li className="appbar__menu-item"><Link to="/">HOME</Link></li>
                         <li className="appbar__menu-item"><Link to="/blog">BLOG</Link></li>
                         <li className="appbar__menu-item"><Link to="/blog/new">CREATE BLOG</Link></li>
-                        <li className="appbar__menu-item"><Link to="/photos">PHOTOS</Link></li>
+                        <li className="appbar__menu-item"><Link to="/movies">MOVIES</Link></li>
                         <li className="appbar__menu-item"><Link to="/about">ABOUT</Link></li>
                     </ul>
                 </div> 
                 <div className="appbar__right">
-                    
-                        <input className="appbar__search" type="text" placeholder="Search"/>
-                    
+                        <input className="appbar__search" type="text" placeholder="Search"/>                    
                 </div>
             </div>
 

@@ -7,9 +7,8 @@ class About extends Component {
     return (
       <div className="about-overview">
         <h1>Cry. But for the right reasons.</h1>
-           	<div >
-            	<img className="about-overview__mainimage" src="https://d18lkz4dllo6v2.cloudfront.net/cumulus_uploads/entry/13074/Tears%20Cropped.jpg?w=660" alt="" />
-            </div>
+           	<div>
+            	<img className="about-overview__mainimage" src="https://d18lkz4dllo6v2.cloudfront.net/cumulus_uploads/entry/13074/Tears%20Cropped.jpg?w=660" alt="#"/></div>
             <div className="about-overview__text">
             	
             	<p>“There are three things we cry for in life: things that are lost, things that are found, and things that are magnificent.” </p>
@@ -23,8 +22,7 @@ class About extends Component {
 
         <h1>Take care of each other.</h1>
           <div>
-          	<img className="about-overview__subimage" src="https://cdn-images-1.medium.com/max/1600/1*Ww305_8Vag1qKoEgPmCXgA.jpeg" alt="" />
-          </div>
+          	<img className="about-overview__subimage" src="https://cdn-images-1.medium.com/max/1600/1*Ww305_8Vag1qKoEgPmCXgA.jpeg" alt="" /></div>
           <div className="about-overview__text">
           
           	<p>“We’re all just walking each other home.”</p>
@@ -38,8 +36,7 @@ class About extends Component {
 
         <h1>Don’t overthink it.</h1>
          	<div>
-          	<img className="about-overview__subimage" src="https://cdn-images-1.medium.com/max/1600/1*Dzo1N1Jv7Vv3r-UQPKEXcA.jpeg" alt="" />
-          </div>
+          	<img className="about-overview__subimage" src="https://cdn-images-1.medium.com/max/1600/1*Dzo1N1Jv7Vv3r-UQPKEXcA.jpeg" alt="" /></div>
           <div className="about-overview__text">
 
           	<p>“Sometimes the questions are complicated and the answers are simple.” </p>
