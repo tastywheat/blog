@@ -20,6 +20,7 @@ class Appbar extends Component {
                         <li className="appbar__menu-item"><Link to="/blog">BLOG</Link></li>
                         <li className="appbar__menu-item"><Link to="/blog/new">CREATE BLOG</Link></li>
                         <li className="appbar__menu-item"><Link to="/movies">MOVIES</Link></li>
+                        <li className="appbar__menu-item"><Link to="/todo">TODO</Link></li>
                         <li className="appbar__menu-item"><Link to="/about">ABOUT</Link></li>
                     </ul>
                 </div> 

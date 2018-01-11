@@ -12,6 +12,7 @@ import Appbar from '../../containers/appbar/component';
 import LiveChat from '../../containers/live-chat/component';
 import ArticleDetail from '../../pages/article-detail/component';
 import App from '../../pages/movies/component';
+import TodoList from '../../pages/todo/component';
 import BlogNew from '../../pages/blog-new/component';
 
 class Root extends Component {
@@ -31,6 +32,7 @@ class Root extends Component {
                     <Route path="/about" component={About}/>
                     <Route path="/blog/new" component={BlogNew}/>
                     <Route path="/movies" component={App}/>
+                    <Route path="/todo" component={TodoList}/>
                     <Route path="/articles/:title" component={ArticleDetail} />
                 </div>
 
